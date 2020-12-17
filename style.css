@@ -168,8 +168,8 @@
     }
     
     .Titol{
-        margin: auto;
-        padding-top: 70px;
+       position: relative;
+       top: 20px;
     }
     
     .Paraf{
