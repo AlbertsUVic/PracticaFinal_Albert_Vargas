@@ -32,42 +32,39 @@
         max-width: 100%;
         max-height: 100%;
         margin: 10px;
-        position: relative;
-
     }
-
-    nav{
+    .navigation{
         border-bottom: 2px white solid;
-        margin-left: 700px;
-        margin-right: 700px;
+        position: relative;
+        left: 700px;
+        width: 55%;
     }
-
-    li{
+    .navigation li{
         text-decoration: none;
         color: white;
         display: inline;
         text-align: center;
-        margin: 0 10px 0 0;
         position: relative;
-        left: 4%;
+        left: 6%;
         padding: 10px;
     }
-    li a{
+    .navigation li a{
         padding: 5px 10px 5px 10px;
         color: #666;
         background-color: #eeeeee;
         border: 2px solid rgb(107, 1, 102);
         text-decoration: none;
     }
-
-    li a:hover{
+    
+    .navigation li a:hover{
         color: red;
         background-color: black;
     }
 
     .Titol{
-        margin: auto;
-        padding-top: 70px;
+        position: relative;
+        top: 30px;
+        left: 190px;
     }
 
     .Paraf{
@@ -77,14 +74,11 @@
         top:-40px;
     }
 
-
-
     .Biografia{
-        animation-name: text;
-        animation-duration: 3s;
-        position: absolute;
-        margin-left: 7%;
-        top:25%;
+        animation: text 3s;
+        position: relative;
+        left: 20%;
+        top:5%;
         width: 500px;
         color: white;
         line-height: 20px;
@@ -93,31 +87,29 @@
 
 
     .imatge2{
-        animation-name: imag;
-        animation-duration: 3s;
-        position: absolute;
-        margin-left: 38%;
+        animation: imag 3s;
+        position: relative;
+        left: 15%;
         margin-top:3%;
         width:450px;
         height: 450px;
     }
 
     .Obra{
-        animation-name: text;
-        animation-duration: 3s;
-        position: absolute;
-        margin-left: 70%;
-        top: 25%;
-        width: 500px;
+        animation: text 3s;
+        position: relative;
+        left: 40%;
+        top: 50%x;
         color: white;
         line-height: 20px;
     }
 
-    footer{
+    footer p{
+        position: relative;
+        width:150%;
+        left:50%;
+        font-size:12px;
         color: white;
-        margin-top:36% ;
-        margin-left: 29%;
-        font-size:15px;
     }
 }
 

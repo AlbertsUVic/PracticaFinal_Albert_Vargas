@@ -168,9 +168,10 @@
     }
     
     .Titol{
-       position: relative;
-       top: 10px;
-       left: -50px;
+        position: relative;
+        top: 30px;
+        left: -350px;
+        
     }
     
     .Paraf{
@@ -180,9 +181,7 @@
         top:-40px;
     }
     
-    
-    
-    
+
     .nuria{
         position: relative;
         top:20%;
@@ -217,10 +216,11 @@
     
     footer{
         color: white;
+        width:100%;
         position: absolute;
         top: 127%;
-        left: 29%;
-        font-size:5px;
+        left: 32%;
+        font-size:12px;
         
     }
     
