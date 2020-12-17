@@ -1,0 +1,250 @@
+@media screen and (min-width:1920px){
+    *{
+        background-color: black;
+    }
+
+    @keyframes imag{
+        from{
+            top:200%;
+        }
+        to{
+            top: 27%;
+        }
+    }
+
+    @keyframes text {
+        0% {
+        opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+
+
+    body{
+        margin:0;
+        padding:0;
+        font-family: ‘Courier New’, Courier, monospace;
+        font-size: medium;
+    }
+    .principal{
+        max-width: 100%;
+        max-height: 100%;
+        margin: 10px;
+        position: relative;
+
+    }
+
+    nav{
+        border-bottom: 2px white solid;
+        margin-left: 700px;
+        margin-right: 700px;
+    }
+
+    li{
+        text-decoration: none;
+        color: white;
+        display: inline;
+        text-align: center;
+        margin: 0 10px 0 0;
+        position: relative;
+        left: 4%;
+        padding: 10px;
+    }
+    li a{
+        padding: 5px 10px 5px 10px;
+        color: #666;
+        background-color: #eeeeee;
+        border: 2px solid rgb(107, 1, 102);
+        text-decoration: none;
+    }
+
+    li a:hover{
+        color: red;
+        background-color: black;
+    }
+
+    .Titol{
+        margin: auto;
+        padding-top: 70px;
+    }
+
+    .Paraf{
+        color: white;
+        margin-left: 39%;
+        position: relative;
+        top:-40px;
+    }
+
+
+
+    .Biografia{
+        animation-name: text;
+        animation-duration: 3s;
+        position: absolute;
+        margin-left: 7%;
+        top:25%;
+        width: 500px;
+        color: white;
+        line-height: 20px;
+
+    }
+
+
+    .imatge2{
+        animation-name: imag;
+        animation-duration: 3s;
+        position: absolute;
+        margin-left: 38%;
+        margin-top:3%;
+        width:450px;
+        height: 450px;
+    }
+
+    .Obra{
+        animation-name: text;
+        animation-duration: 3s;
+        position: absolute;
+        margin-left: 70%;
+        top: 25%;
+        width: 500px;
+        color: white;
+        line-height: 20px;
+    }
+
+    footer{
+        color: white;
+        margin-top:36% ;
+        margin-left: 29%;
+        font-size:15px;
+    }
+}
+
+@media screen and (min-width:1080px){
+    *{
+        background-color: black;
+    }
+
+    @keyframes imag{
+        from{
+            top:600%;
+        }
+        to{
+            top: 110%;
+        }
+    }
+
+    @keyframes text {
+        0% {
+        opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+
+
+    body{
+        margin:0;
+        padding:0;
+        font-family: ‘Courier New’, Courier, monospace;
+        font-size: medium;
+    }
+    .principal{
+        max-width: 50%;
+        max-height: 50%;
+        margin: 10px;
+        position: relative;
+
+    }
+
+    
+    li{
+        text-decoration: none;
+        color: white;
+        display: inline;
+        text-align: center;
+        margin: 0 10px 0 0;
+        position: relative;
+        left: 60%;
+        padding: 10px;
+    }
+    li a{
+        padding: 5px 10px 5px 10px;
+        color: #666;
+        background-color: #eeeeee;
+        border: 2px solid rgb(107, 1, 102);
+        text-decoration: none;
+    }
+
+    li a:hover{
+        color: red;
+        background-color: black;
+    }
+
+    .Titol{
+        margin: auto;
+        padding-top: 70px;
+        padding-left: 0%;
+        width:150%;
+    }
+
+    .Paraf{
+        color: white;
+        margin-left: 39%;
+        position: relative;
+        top:-40px;
+    }
+
+
+
+    .Biografia{
+        animation-name: text;
+        animation-duration: 3s;
+        position: absolute;
+        margin-left: 7%;
+        top:255%;
+        width: 400px;
+        height: 50px;
+        color: white;
+        line-height: 20px;
+        font-size: 15px;
+
+    }
+
+
+    .imatge2{
+        animation-name: imag;
+        animation-duration: 3s;
+        position: absolute;
+        margin-left: 70%;
+        width:300px;
+        height: 300px;
+    }
+
+    .Obra{
+        animation-name: text;
+        animation-duration: 3s;
+        position: absolute;
+        margin-left: 100%;
+        top: 255%;
+        width: 500px;
+        color: white;
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    footer{
+
+        color: white;
+        position: absolute;
+        width: 700px;
+        top: 700%;
+        left: 32%;
+        font-size:10px;
+        
+    }
+}
+
+
